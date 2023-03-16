@@ -92,6 +92,17 @@ h1, h3, h4, h6, .navbar-brand {
     margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section {
+        background-color: #2F2D52;
+        padding: 80px 0;
+    }
+}
+
 
 
 
@@ -149,6 +160,12 @@ h1, h3, h4, h6, .navbar-brand {
 
 .thumbnail {
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .project-description, h3 { 
+        font-size: 1rem;
+    }
 }
 
 
