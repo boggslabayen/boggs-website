@@ -1,0 +1,238 @@
+body{
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.75rem;
+}
+
+h3, .navbar-brand {
+    font-size: 2.5rem;
+    line-height: 66px;
+    font-weight: 300;
+}
+
+h4, .project-description, .btn-link {
+    font-size: 1.5rem;
+}
+
+h1, h3, h4, h6, .navbar-brand {
+    font-family: 'DM Serif Display', serif;
+    color: #2F2D52;
+}
+
+.content-container {
+    width: 90%;
+}
+
+@media (min-width: 1000px) {
+    .content-container {
+        width: 912px;
+    }
+    
+}
+
+/* Navigation bar CSS */
+
+.navbar {
+    margin: 0 10%;
+}
+
+.nav-link {
+    font-family: 'Outfit';
+    font-weight: 500;
+    margin: 0 40px;
+    color: #2F2D52;
+}
+
+.nav-link:hover {
+    font-family: 'Outfit';
+    font-weight: 500;
+    margin: 0 40px;
+    color: #8681EB;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        margin: 0 0px;
+    }
+
+}
+
+/* Hero Section CSS */
+
+.hero-section {
+    background-color: #2F2D52;
+    padding: 160px 0;
+}
+
+.hero-headline, .fa-angle-down, .hero-link {
+    color: #ffffff;
+}
+
+.hero-scroll {
+    margin-top: 56px;
+}
+
+
+.fa-angle-down {
+    font-size: 40px;
+}
+
+.hero-link {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-size: 16px; 
+    font-weight: 200;
+    line-height: 20px;
+}
+
+.hero-container {
+    margin: 0 auto;
+}
+
+
+
+
+
+
+/* Work Snippets CSS */
+
+.project-details {
+    margin: 100px auto;
+}
+
+.project-tag {
+    font-weight: 200;
+    color: #5C5B6B;
+    line-height: 20px;
+}
+
+
+.project-description {
+    font-family: 'Outfit';
+    font-weight: 200;
+    line-height: 40px;
+}
+
+
+
+.btn-link {
+    color: #5B579E;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 40px;
+    align-items: center;
+}
+
+.fa-arrow-right {
+    margin-left: 8px;
+    font-size: 24px;;
+}
+
+.btn-link:hover {
+    color: #2F2D52;
+}
+
+
+.title-tag, .description-trigger {
+    text-align: left;
+}
+
+.project-cover {
+    margin-top: 16px;
+    padding: 3% 0;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+
+/* Footer CSS */
+
+.socials {
+    margin: 16px 16px;
+    color: #2F2D52;
+    font-size: 24px;
+}
+
+.social-link {
+    text-decoration: none;
+    padding: 24px 0px;;
+}
+
+
+
+
+/* Resume Css */
+
+.intro-section {
+    padding: 100px 0;
+}
+
+.intro-writeup {
+    text-align: left;
+}
+
+
+
+.quick-intro {
+    font-family: 'Outfit';
+    font-size: 1rem;
+    font-weight: 250;
+    line-height: 26px;
+}
+
+
+
+
+
+.role {
+    margin: 0 auto;
+    color:#2F2D52;
+    font-family: 'Outfit';
+}
+
+.company {
+    font-weight: 200;
+    font-family: 'Outfit';
+    color: #5C5B6B;
+}
+
+
+.year {
+    margin-bottom: 0;
+    color:#2F2D52;
+    font-family: 'Outfit';
+}
+
+/* .card-link {
+    text-decoration: none;
+} */
+
+.experience-card {
+    padding: 24px 0;;
+    width: 292px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.experience-grid{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 1rem;
+}
+
+
+
+
+
+
+
+
