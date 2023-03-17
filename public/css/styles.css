@@ -21,7 +21,7 @@ h1, h3, h4, h6, .navbar-brand {
     color: #2F2D52;
 }
 
-.content-container {
+.content-container, .experience-grid {
     width: 90%;
 }
 
@@ -101,6 +101,8 @@ h1, h3, h4, h6, .navbar-brand {
         background-color: #2F2D52;
         padding: 80px 0;
     }
+
+
 }
 
 
@@ -233,6 +235,7 @@ h4 {
 } */
 
 
+
 .experience-card {
     padding: 24px 0;
     border: 1px solid;
@@ -240,26 +243,38 @@ h4 {
     margin: 8px 4px;;
     width: 30%;
     display: inline-block;
+    
 }
 
 .experience-grid {
+width: 100%;
 margin-top: 24px;
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
 }
 
 @media (max-width: 768px) {
-    .role, .company, .year {
-        font-size: 1rem;
-        
-    }
+
 
     .company {
         margin-bottom: 0;
     }
+
     .experience-card {
-        padding: 4px 0;
+        width: 43%;
+    }
+
+    .headshot {
         width: 40%;
+        float: left;
+    }
+
+    .intro-section {
+        padding: 60px 0;
     }
     
+  
 }
 
 .education-training {
