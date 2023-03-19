@@ -14,6 +14,10 @@ app.get("/resume", function(req, res){
     res.render("resume");
 })
 
+app.get("/work/pasahero", function(req, res){
+    res.render("pasahero");
+})
+
 
 app.listen(process.env.PORT || 3000, function(){
     console.log("started @ 3000")
