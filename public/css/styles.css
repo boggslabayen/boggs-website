@@ -12,6 +12,7 @@ h3, .navbar-brand {
     font-weight: 300;
 }
 
+
 h4, .project-description, .btn-link {
     font-size: 1.5rem;
 }
@@ -323,6 +324,63 @@ li {
     margin: 0 auto 120px auto;
 }
 
+/* work-css */
+
+.container-bg {
+    background-color: #5C5B6B;
+    color: #ffffff;
+    padding: 80px 0;;
+}
+
+.result-title {
+    color: #ffffff;
+}
+
+.paragraph-margin {
+    margin-top: 24px;
+    color: #ffffff;
+}
+
+.paragraph {
+    margin-top:
+}
+
+.process-title {
+    font-family: 'Outfit';
+    font-weight: 250;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.process-part-two {
+    margin: 80px auto;
+}
+
+.img-support {
+    margin-top: 24px;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .pasahero-screens {
+        width: 90%;
+    }
+}
+
+.project-title-banner {
+    text-align: left;
+}
+
+.project-cover-banner {
+    background-image: url("../images/pasahero/citylights.jpeg");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+
+.button {
+    width: 40%;
+}
 
 
 

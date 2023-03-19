@@ -1,14 +1,157 @@
 <%- include("partials/header") -%>
-
 <body>
-    <%- include("partials/nav") -%>
+<%- include("partials/nav") -%>
 
+<div class="hero-section project-cover-banner">
+    <div class="content-container hero-container row">
+        <div class="col-md-6">
+            <img src="images/pasahero/pasaherocoverthumb.png" alt="">
+        </div>
+    
+        <div class="col-md-6 project-title-banner ">
+            <h6 class="hero-headline">Case Study</h6>
+        <h1 class="hero-headline">Pasahero: Passenger Safety App</h1>
+        </div>
+
+        <!-- modal section here -->
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            Launch demo modal
+        </button>
+  
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                ...
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+<!-- Overview Section -->
+
+<div class="row content-container hero-container intro-writeup process-part-two">
+
+    <div class="col-md-8">
+        <h4>
+            Overview
+        </h4>
+    
+        <p class="paragraph project-description">
+            ABS-CBN is a broadcasting company who is committed to be of service for Filipinos worldwide. As a challenge, we were tasked to create a product that will contribute to the company’s unwavering pledge to serve the Filipino public.
+    
+            We focused on basic needs and common pain points that most Filipino public are facing everyday. In 2013, safety and public transportation was one of their outstanding concerns. This gave us an opportunity to help safeguard the lives of the Filipino commuters through a passenger safety app.
+        </p>
+    </div>
     
 
+    <div class="col-md-4">
+        <h4>
+            Role
+        </h4>
     
+        <h6 class="paragraph process-title">
+            PRODUCT DESIGNER
+        </h6>
+        
+        <ul>
+            <li>User Researcher
+            <li>UI Design</li>
+            <li>Prototyping</li>
+            <li>Usability Testing</li>
+            <li>Marketing Strategy</li>
+        </ul>
+    </div>
+   
+</div>
+
+<!-- Process Section -->
+
+<div class="container-bg">
+    <div class="content-container hero-container intro-writeup ">
+        <h4 class="result-title">
+            THE PROCESS
+        </h4>
+    
+        <div class="process-part-one row" >
+            <div class="col-md-8">
+
+                <h4 class="process-title" style="color: #ffffff">
+                    RESEARCH
+                 </h4>
+             
+                 <p class="paragraph-margin project-description">
+                     The solution started as a hypothesis that majority of public commuters are equally concerned about their safety whenever they are or their loved ones are in public transit. To further validate my hypothesis, I’ve conducted series of in-depth interviews to commuting public to discover it first hand.  As a result, I have validated that as simple as informing their loved ones when they are about to embark on a trip can make them feel secure and protected. This insight has helped us with the product features to include and guided us with our design decisions.
+                 </p>
+
+            </div>
+            
+             <div class="margin-top col-md-4">
+                <img src="images/pasahero/pasahero-ideation.png" alt="">
+             </div>
+             
+        </div>
+    </div>
+</div>
+
+
+    
+        <div class="process-part-two content-container hero-container intro-writeup  project-description">
+
+            <h4 class="process-title">DESIGNING THE PRODUCT</h4>
+
+            <div class="margin-top row">
+                <img src="images/pasahero/wireframes.png" alt="" class="img-support col-md-6">
+                <img src="images/pasahero/iteration1.png" alt="" class="img-support col-md-6">
+            </div>
+    
+           
+            <p class="margin-top project-description">To ensure the product fit in naturally with the users commuting behaviour,  multiple design  sketches and iterations were done. Features are influenced by the task commuters usually do whenever they are on a commute such as sharing their transportation details to their families.
+    
+                To guarantee users a seamless product, usability testings were done using a clickable wireframes and asking test respondents to pretend they are using the product while on commute.</p>
+                
+                <div class="margin-top">
+                    <img src="images/pasahero/finalproduct.png" alt="" class="pasahero-screens">
+                </div>
+               
+            
+        </div>
+    
+   
 
 
 
-    <%- include("partials/footer") -%>
 
+<!-- Results Section -->
+<div class="container-bg">
+    <div class="content-container hero-container intro-writeup ">
+
+        <h4 class="result-title">
+            THE RESULT
+        </h4>
+    
+        <p class="paragraph-margin project-description">Although the product has been deactivated a few years after it’s release in iOS App store due to change of management direction, it brought numerous recognition , awards and accolades from local and international award giving bodies. Strengthening the company’s commitment to public service and at the same time establishing the company as an innovative organization through technology.</p>
+    
+    
+    </div>
+</div>
+
+<%- include("partials/footer") -%>
 </body>
