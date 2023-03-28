@@ -18,6 +18,10 @@ app.get("/pasahero", function(req, res){
     res.render("pasahero");
 })
 
+app.get("/hcph", function(req, res){
+    res.render("hcph");
+})
+
 
 
 app.listen(process.env.PORT || 3000, function(){
