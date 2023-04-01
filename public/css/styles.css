@@ -393,6 +393,12 @@ li {
     background-blend-mode: multiply;
 }
 
+.project-cover-banner-mc {
+    background-image: url("../images/mc/mc-cover.jpeg");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
 
 .button {
     width: 40%;

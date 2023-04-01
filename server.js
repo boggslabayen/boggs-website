@@ -22,6 +22,10 @@ app.get("/hcph", function(req, res){
     res.render("hcph");
 })
 
+app.get("/mc", function(req, res){
+    res.render("mc");
+})
+
 
 
 app.listen(process.env.PORT || 3000, function(){
