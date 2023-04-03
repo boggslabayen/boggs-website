@@ -26,8 +26,6 @@ app.get("/mc", function(req, res){
     res.render("mc");
 })
 
-
-
 app.listen(process.env.PORT || 3000, function(){
     console.log("started @ 3000")
   });
