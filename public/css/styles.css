@@ -64,8 +64,8 @@ h1, h3, h4, h6, .navbar-brand {
 /* Hero Section CSS */
 
 .hero-section {
-    background-color: #987123;
-    padding: 160px 0;
+    background: var(--base-blue, #2F2D52);
+    padding: 5% 0;
 }
 
 .hero-headline, .fa-angle-down, .hero-link {
@@ -77,7 +77,7 @@ h1, h3, h4, h6, .navbar-brand {
 }
 
 
-.fa-angle-down {
+.fa-circle-down {
     font-size: 40px;
 }
 
@@ -100,7 +100,7 @@ h1, h3, h4, h6, .navbar-brand {
 
     .hero-section {
         background-color: #2F2D52;
-        padding: 80px 0;
+        padding: 30% 0;
     }
 
 
@@ -113,14 +113,25 @@ h1, h3, h4, h6, .navbar-brand {
 
 /* Work Snippets CSS */
 
-.project-details {
-    margin: 100px auto;
+
+.work-section {
+    padding: 0% 15%;
 }
+
+.detalye {
+    text-align: left;
+}
+
+.work-entry {
+    margin: 10% 0 10% 0;
+}
+
 
 .project-tag {
     font-weight: 200;
     color: #5C5B6B;
     line-height: 20px;
+    text-transform:uppercase;
 }
 
 
@@ -157,9 +168,7 @@ h1, h3, h4, h6, .navbar-brand {
 }
 
 
-.title-tag, .description-trigger {
-    text-align: left;
-}
+
 
 .project-cover {
     margin-top: 16px;
@@ -174,7 +183,16 @@ h1, h3, h4, h6, .navbar-brand {
     .project-description{ 
         font-size: 1rem;
     }
+
+    .thumbnail {
+       margin-top: 10%;
+    }
+
+    .work-section {
+        padding: 0% 5%;
+    }
 }
+
 
 
 /* Footer CSS */
